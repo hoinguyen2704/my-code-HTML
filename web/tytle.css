@@ -7,15 +7,16 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;/*theo chiều ngang*/
+    align-items: center;/*theo chiều dọc*/
     min-height: 100vh;
-    background-image: url(3.jpg);
+    background-image: url(2.png);
     background-position: center;
     background-size: auto;
 }
 
 .login {
+    margin-left: 47%;
     width: 480px;
     height: 500px;
     padding: 30px;
