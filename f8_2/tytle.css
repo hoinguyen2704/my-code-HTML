@@ -1,0 +1,16 @@
+.image{
+    width: 200px;
+    margin: 10px;
+}
+div.header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('07 gettyimages-846718976_resized.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title_website{
+    color: red;
+}

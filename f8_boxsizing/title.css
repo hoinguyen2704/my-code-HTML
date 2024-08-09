@@ -1,0 +1,81 @@
+div.content {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  padding: 16px;
+  border: solid 5px black;
+  box-sizing: border-box;
+}
+div.header {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100px;
+  background-color: blue;
+  /* background-image: url("2.png"); */
+  /* background-size: 100%; */
+  /* background-position: 100%; */
+  padding: 20px;
+  border: 8px dashed green;
+  background-clip: content-box;
+}
+div.header2 {
+  margin-top: 40px;
+  width: 200px;
+  height: 140px;
+  background-color: green;
+  padding: 40px;
+  box-sizing: border-box;
+  background-image: url("circle-phone-flip.png"), url("2.png");
+  background-size: 100% auto;
+  /* background-size: 40%; */
+  /* object-fit: cover; */
+  /* background-position: 50% 50%; */
+  /* background-position: center top; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div.head3 {
+  margin-top: 40px;
+  width: 200px;
+  height: 100px;
+  color: aqua;
+  background-color: green;
+  background-image: linear-gradient(90deg,rgba(255,255,255,0.5), yellow), url("2.png");
+  background-size: 100%;
+  backdrop-filter: blur(40px);
+  background-blend-mode: lighten;
+}
+.head4{
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/32/38/25/1000_F_232382568_YfamFAHUxgQE4FwfIYug9DdooumW45rS.jpg);
+    background-size: 60%;
+    opacity: 100%;
+}
+.head5{
+    margin-top: 40px;
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    background-image: url(FB_IMG_1722326275010.jpg);
+    background-size: contain;/*tự lấy kích thước phù hợp sao cho ảnh ko bị bóp méo và mất tỉ lệ*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-origin: ; đặt hình nền theo content/border/padding */
+}
+.content2in{
+  font-family: Arial, Helvetica, sans-serif;
+}
