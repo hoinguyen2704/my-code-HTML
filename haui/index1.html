@@ -7,19 +7,122 @@
     <link rel="stylesheet" href="main1.css">
 </head>
 <body>
-    <div id="header">
-        <div id="image">
-            <img src="D:\OneDrive\Documents\code\html\haui\image\logo-45x45.png" alt="logo">
+    <div id="wrapper">
+        <div id="header">
+            <img id="image-logo" src="image\logo-haui-size.png" alt="logo">
+            <div id="name">
+                <b>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI<br>KHOA CÔNG NGHỆ THÔNG TIN
+                </b>
+            </div>
         </div>
-        <div id="name">
-            <h1>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI <p>KHOA CÔNG NGHỆ THÔNG TIN</p></h1>
+        <!-- end header -->
+        <div id="main-content">
+            <div class="menu" id="toolbar">
+                <ul class="menu">
+                    <li><a href="#">Kinh Tế</a></li>
+                    <li><a href="#">Văn hóa xã hội</a>
+                        <ul class="sub-menu" id="dropdown">
+                            <li><a href="#">Kinh tế 1</a></li>
+                            <li><a href="#">Kinh tế 2</a></li>
+                            <li><a href="#">Kinh tế 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Giáo dục cộng</a></li>
+                    <li><a href="#">Học nữa học</a></li>
+                    <li><a href="#">Văn học vừa</a></li>
+                </ul>
+            </div>
+            <!-- end menu -->
+            <div class="main-content-view" id="wrapper-sub-content-view">
+                <div class="content" id="category">
+                    <h2>Tủ sách</h2>
+                    <ul class="library">
+                        <li><a href="">Kinh Tế</a> </li>
+                        <li><a href="">Văn hóa xã hội</a></li>
+                        <li><a href="">Kinh tế 1</a></li>
+                        <li><a href="">Kinh tế 2</a></li>
+                        <li><a href="">Kinh tế 3</a></li>
+                        <li><a href="">Giáo dục công</a></li>
+                        <li><a href="">Học nữa học</a></li>
+                        <li><a href="">Vừa học vừa</a></li>
+                    </ul>
+                </div>
+                <!-- end category -->
+                 <div class="content" id="main-content-view">
+                    <div class="content-view" id="content-view1">
+                            <img id="image-in-main" src="image/Heller-Kirkus-Reviews.png" alt="">
+                        <div id="content-view1-description">
+                            <b>Mẫu tin một</b> <br>Thủ khoa đầu ra trường Đại Học Dược Hà Nội, Trịnh Thị Vân Anh không chỉ học giỏi mà còn hăng say tham gia các hoạt động có ý nghĩa cho xã hội
+                        </div>
+                    </div>
+                    <div class="content-view" id="content-view1">
+                            <img id="image-in-main" src="image/Open_book_nae_02.svg.png" alt="">
+                        <div id="content-view1-description">
+                            <b>Mẫu tin Hai</b> <br>Thủ khoa đầu ra trường Đại Học Dược Hà Nội, Trịnh Thị Vân Anh không chỉ học giỏi mà còn hăng say tham gia các hoạt động có ý nghĩa cho xã hội
+                        </div>
+                    </div>
+                    <div class="content-view" id="content-view1">
+                            <img id="image-in-main" src="image/cf929df3b4640fa9e3893c370d8448cf0ffe7fbf.jpg" alt="">
+                        <div id="content-view1-description">
+                            <b>Mẫu tin Ba</b> <br>Thủ khoa đầu ra trường Đại Học Dược Hà Nội, Trịnh Thị Vân Anh không chỉ học giỏi mà còn hăng say tham gia các hoạt động có ý nghĩa cho xã hội
+                        </div>
+                    </div>
+
+                 </div>
+                 <!-- end main-content-view -->
+                  <div class="content" id="sidebar">
+                    <div class="log" id="log">
+                        <a href="">Đăng nhập</a> |
+                        <a href="">Đăng ký</a>
+                    </div>
+                    <div class="table-wrapper">
+                    <div class="table" id="div-giohang">
+                        <div class="table-sub" id="gioHang" style="background-color: rgba(0, 0, 255, 0.211);">
+                            <b>Giỏ hàng</b>
+                        </div>
+                        <div class="table-sub" id="option">
+                            Tổng cộng: 0VNĐ <br>
+                            Xem giỏ hàng <br>
+                            Thanh toán <br>
+                        </div>
+                    </div>
+
+                        <div class="table" id="div-support">
+                            <div class="table-sub" id="Support">
+                                Hỗ trợ trực tuyến
+                            </div>
+                            <div class="table-sub" id="Admin" style="background-color: rgba(0, 0, 255, 0.211);">
+                                <b>Admin web</b>
+                        </div>
+                    </div>
+
+                        <div class="table" id="New">
+                            <div class="table-sub" id="TinMo" style="background-color: rgba(0, 0, 255, 0.211);">
+                                <b>Tin mới</b>
+                            </div>
+                            <div class="table-sub" id="printer">
+                                Máy in Epson T60 nháy 2 đèn đỏ
+                            </div>
+                            <div class="table-sub" id="HDSD">
+                                Khi dùng máy in phun Epson dùng hệ thống mực ngoài, đôi lúc bạn gặp một vài sự cố nhỏ
+                            </div>
+                            <div class="table-sub" id="fix">
+                                Sửa lỗi máy in Epson T60, T50 không nhận mực
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- end sidebar -->
+            </div>
         </div>
+        <!-- end main-content -->
+        <div id="footer"> 
+            <div id="copyright">
+                @copyright 2021 Hà Nội, Vietnam. All rights reserved.
+            </div>
+        </div>
+        <!-- end footer -->
     </div>
-    <div id="main-content">
-
-    </div>
-    <div id="footer">
-
-    </div>
+    <!-- end web -->
 </body>
 </html>
