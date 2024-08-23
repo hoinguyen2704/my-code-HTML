@@ -51,18 +51,33 @@ ul>li>a{
 #main-menu>li>ul.sub-menu{
     display: flex;
     flex-direction: column;
-    display: none;
+    /* display: none; */
     justify-content: space-between;
     position: absolute;
-    top: 57px;
+    top: 0px;
     list-style: none;
     padding: 0px 0px;
-    background-color: rgba(0, 0, 255, 0.622);
     min-width: max-content;
 }
 ul.sub-menu>li{
-    border-bottom: black solid 2px;
+    border-bottom: rgba(0, 0, 0, 0) solid 2px;
+}
+ul.sub-menu>li>a{
+    color: #f8f8f800;
 }
 ul>li:hover>#sub-menu{
-    display: block;
+    background-color: rgba(0, 0, 255, 0.622);
+    top: 57px;
+    transition: all 1s ease-in-out;
+    /* top: 100px; */
+    /* display: block; */
+}
+ul>li:hover>#sub-menu>li{
+    border-bottom: black solid 2px;
+    transition: all 1s ease-in-out;
+    
+}
+ul>li:hover>#sub-menu>li>a{
+    transition: all 1s ease-in-out;
+    color: #f8f8f8;
 }
